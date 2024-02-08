@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Optional CSS -->
+  <!-- JQuerry CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>OLX - Buy and Sell for free anywhere in INDIA with OLX online classified</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body >
+  <!-- Header -->
+
+  <!-- navbar: Indicates that this is a Bootstrap navbar component.
+       navbar-expand-lg: Specifies that the navbar will expand and collapse on screens larger than or equal to the "lg" breakpoint (992px).
+      navbar-light: Sets the navbar to have a light background color.
+      bg-light: Sets the background color of the navbar to light.
+      border border-4 border-white: Adds a border to the navbar. It's a white, 4px thick border. -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border border-4 border-white">
+    <div class="container-fluid justify-content-between">
+
+      <!-- me-sm-2: Adds margin to the right side of the element for small screens (sm and up).
+          col-1: Specifies that this element will take up one column width within its container.
+          me-lg-0: Adds margin to the right side of the element for large screens (lg and up). -->
+      <a class="navbar-brand logo me-sm-2  col-1  me-lg-0" href="#"><img src="img/Capture-removebg-preview.png" width="60px" alt=""></a>
+
+            <!-- navbar-toggler: Indicates that this is the toggler button for the navbar.
+      data-toggle="collapse": Specifies that clicking this button will toggle the collapse of the targeted element.
+      data-target="#navbarSupportedContent": Specifies the ID of the element to be collapsed/expanded.
+      aria-controls="navbarSupportedContent": Indicates the controlled element by accessibility standards.
+      aria-expanded="false": Indicates that the controlled element is initially collapsed.
+      aria-label="Toggle navigation": Provides an accessible label for the button. -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!-- Actual search box -->
+            <div class="form-group has-search position-relative">
+
+              <!-- The "fa" and "fa-search" classes are from Font Awesome, indicating that this element displays the search icon.
+The "form-control-feedback" class typically indicates that this element provides feedback within a form control, such as an icon within an input field.
+The "position-absolute" class positions the search icon absolutely within its nearest positioned ancestor, which in this case is the form group with the "position-relative" class. -->
+              <span class="fa fa-search form-control-feedback position-absolute"></span>
+              <input type="text" class="form-control form-input" placeholder="India">
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="form-group has-search">
+              <input type="text" class="form-control form-input find-car"
+                placeholder="Find Cars, Mobile Phones and more...">
+            </div>
+          </li>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              English
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Hindi</button>
+              <button class="dropdown-item" type="button">English</button>
+              
+            </div>
+          </div>
+          <!-- Button trigger modal -->
+
+          <!-- data-toggle="modal": Specifies that clicking this button will toggle the display of a modal.
+          data-target="#exampleModal": Specifies the ID of the modal that this button will toggle. In this case, it targets a modal with the ID exampleModal. -->
+          <button type="button" class="btn login-link" data-toggle="modal" data-target="#exampleModal" >Login</button>
+          <!-- Modal -->
+         
+          <li class="nav-item">
+            <a href="" class="nav-link"><button class="btn sell-btn sell "><i
+                  class="fas fa-plus plus-icon"></i>Sell</button></a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md bg-white custom-navbar w-100">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 container-fluid text-left">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              All Category
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Vehicles</a>
+              <a class="dropdown-item" href="#">Animals</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <!-- <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a> -->
+              <!-- <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a>
+              <a class="dropdown-item" href="#">Furniture & Home Decore</a> -->
+
+            </div>
+          </div>
+        </li>
+
+        
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link link">Cars</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">Motorcycles</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">Mobile Phones</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">For-sale-Houses And apartments</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">Scooters</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">Commercial Vehicles</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link link">For rent-Houses and apartments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  
+  <!-- Section Banner -->
+  <section id="banner" class="w-100">
+    <div class="bg-banner"></div>
+  </section> 
+   <!-- Ads Section -->
+  <section id="ad" class="d-flex align-items-center" style="height:35vh">
+    <div class="container-fluid d-flex align-items-center" style="height: 30vh;">
+      <div class="container-fluid w-100" style="height: 20vh; width: 65%;">
+        <div class="ad-bg"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Section -->
+  <!-- <section id="featured w-100">
+    <div class="container " style="background-color: #f4f4f4; min-height: 60vh; border-radius: 10px;">
+      <div class="featured-head d-inline">
+        <span class="view-more">View more</span>
+        <h3 class="featured-heading">More on Shoes</h3>
+      </div>
+      <div class="card-deck card-container">
+        <div class="card">
+          <div class="card-img-top card-img">
+            <span class="badge badge-warning featured-badge">Featured</span>
+            <img src="./img/image_1.jfif">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rs 14,500</h5>
+            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, odio?</p>
+            <p class="card-text text-secondary bottom-card"><small class="text-muted">Dec 20</small></p>
+          </div>
+          <span class="yellow-strip"></span>
+        </div>
+        <div class="card">
+          <div class="card-img-top card-img">
+            <span class="badge badge-warning featured-badge">Featured</span>
+            <img src="./IMG/image_2.jfif">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rs 1,170,000</h5>
+            <p class="card-text text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
+              quos!</p>
+            <p class="card-text text-secondary bottom-card"><small class="text-muted">Jan 15</small></p>
+          </div>
+          <span class="yellow-strip"></span>
+
+        </div>
+        <div class="card">
+          <div class="card-img-top card-img">
+            <span class="badge badge-warning featured-badge">Featured</span>
+            <img src="./img/image_3.jfif" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rs 2700</h5>
+            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+              omnis!</p>
+            <p class="card-text text-secondary bottom-card"><small class="text-muted">May 10</small></p>
+          </div>
+          <span class="yellow-strip"></span>
+
+        </div>
+        <div class="card">
+          <div class="card-img-top card-img">
+            <span class="badge badge-warning featured-badge">Featured</span>
+            <img src="./img/image_4.jfif">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rs 11,500</h5>
+            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+              aliquid.</p>
+            <p class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></p>
+          </div>
+          <span class="yellow-strip"></span>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Section Fresh Recommendations -->
+
+  <!-- id assigns an identifier to the section, which can be used to uniquely target this section in CSS or JavaScript. -->
+  <!-- class="w-100": This applies a Bootstrap utility class to set the width of the section to 100%, -->
+  <section id="fresh-recommendations" class="w-100">
+
+    <!-- container class here is aBootstrap class that helps to center and provide padding to the content within it.
+The recommendation-heading class is a custom class used for styling purposes -->
+    <div class="container recommendation-heading">
+      <h3>Fresh Recommendations</h3>
+    </div>
+
+    <div class="container recommendations-container">
+      <!-- This sets up a row with one column for small devices and three columns for medium devices and larger. -->
+      <div class="row row-cols-1 row-cols-md-3">
+
+        <!-- This sets up a column with margins at the bottom. The "mb-4" class adds margin-bottom space to this column. -->
+        <div class="col mb-4">
+
+          <!-- This sets up a Bootstrap card component. -->
+          <div class="card">
+            <!-- It uses the "card-img-top" class to ensure the image is at the top of the card. -->
+            <div class="card-img-top card-img">
+              <img src="IMG/image_5.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 11,500</h5>
+              <p class="card-text text-secondary">Sofa Set 5 Seater.</p>
+              <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <img src="IMG/image_6.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 10,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_7.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 26,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="img/image_8.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 24,800</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_9.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 100,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card text-white bg-primary">
+            <div class="card-body">
+              <h5 class="card-title">Want to see your stuff here.</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-outline-light w-100">Start Selling</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="img/image_10.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 11,500,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_11.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 35,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="IMG/image_12.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 12,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_13.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 7,500</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_14.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 5,200,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="IMG/image_15.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 32,500</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <!-- <span class="yellow-strip"></span> -->
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 load-more-container"  id="Load-more">
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="IMG/image_12.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 12,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_13.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 7,500</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img">
+              <span class="badge badge-warning featured-badge">Featured</span>
+              <img src="IMG/image_14.jfif">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 5,200,000</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit amet.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+            <span class="yellow-strip"></span>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <div class="card-img-top card-img"><img src="IMG/image_15.jfif"></div>
+            <div class="card-body">
+              <h5 class="card-title">Rs 32,500</h5>
+              <p class="card-text text-secondary">Lorem ipsum dolor sit.</p>
+              <div class="footer-container">
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+                <span class="card-text text-secondary bottom-card"><small class="text-muted">Feb 14</small></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center">
+      <button class="btn load-more-btn" id="load-more-btn" onclick="loadMore()">Load More...</button>
+    </div>
+  </section>
+
+  <!-- Second Ads Section -->
+  <!-- assigns an identifier to the section, which can be used to uniquely target this section in CSS -->
+  <section id="second-ad">
+    <!-- Bootstrap class that helps to center and provide padding to the content within it. -->
+    <!-- inline style attribute sets the width of the container to 75% -->
+    <div class="container" style="width: 75%;">
+      <!-- custom class applied to this div,  used for styling purposes  -->
+      <div class="second-ad-bg"></div>
+    </div>
+  </section>
+
+  <!-- Footer Banner -->
+  <section id="footer-banner">
+    <div class="footer-banner-bg"></div>
+  </section>
+
+  <!-- Footer Nav Section -->
+  <section id="footer-nav">
+
+    <!-- These are Bootstrap classes applied to the div.
+container-fluid: This is a Bootstrap class that creates a full-width container spanning the entire width of the viewport.
+footer-navbar-container: This could be a custom class used for styling purposes, possibly related to the footer navigation.
+w-100: This is a Bootstrap utility class that sets the width of the div to 100%, ensuring it takes up the full width of its parent container. -->
+    <div class="container-fluid footer-navbar-container w-100">
+      <!-- row: This is a Bootstrap class that creates a flex container for its columns.
+        footer-nav: This is used for styling purposes -->
+      <div class="row footer-nav">
+
+        <!-- Bootstrap class that creates a column within the row. -->
+        <div class="col">
+          <!-- Footer navbar used for styling purpose -->
+          <div class="nav footer-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <p class="footer-nav-col-heading">Popular Loacations</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Kolkata</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Mumbai</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Chennai</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pune</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="nav footer-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <p class="footer-nav-col-heading">Trending Loactions</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Bhubneshwar</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hyderabad</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Chandigarh</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Nashik</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="nav footer-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <p class="footer-nav-col-heading">About Us</p>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="nav footer-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <p class="footer-nav-col-heading">OLX</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Help</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sitemap</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link legal-information">Legal & Privacy information</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Vulnerability Disclosure Program</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+<!-- 
+        Bootstrap class used to create a column within a grid layout. -->
+        <div class="col">
+          <div class="footer-follow-us">
+            <p class="footer-nav-col-heading">Follow Us</p>
+
+            <!-- to align the social media icons horizontally. -->
+            <div class="link" style="float: left;">
+              <!-- These are <i> elements representing font icons from Font Awesome. Each icon has a specific class indicating the social media platform it represents -->
+              <i class="fab fa-youtube social-icon youtube"></i> <i
+                class="fab fa-facebook facebook social-icon"></i> <i class="fab fa-twitter twitter social-icon"></i><i
+                class="fab fa-instagram instagram social-icon"></i></div>
+            <div class="download-pics">
+              <img src="./IMG/playstore.webp" alt="playstore">
+              <img src="./IMG/appstore.webp" alt="app_store">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <!-- class "w-100" is a Bootstrap utility class that sets the width of the footer to 100%, making it span the full width of its container. -->
+  <footer class="w-100">
+
+    <!-- The "container" class is a Bootstrap class that centers and provides padding to the content within it.
+The "d-flex" class is a Bootstrap utility class that applies the CSS display: flex; property to the container, allowing its children to be laid out as flex items.
+The "justify-content-between" class is a Bootstrap utility class that positions the flex items such that they are evenly distributed along the main axis, with space between them. -->
+    <div class="container d-flex justify-content-between">
+      <div class="countries-container" style="width: 35%;">
+          <div class="countries"> <span class="font-weight-bold">Site map</span></div>
+      </div>
+
+      <!-- This <div> element has the classes "copyright-container" and "d-flex", with an inline style setting its width to 35% and positioning it absolutely to the right.
+        The "right: 0;" style positions the element to the right within its containing element.
+        Inside it, there are two <div> elements: one with the class "India font-weight-bold" and another with the class "copyright". -->
+      <div class="copyright-container d-flex" style="width: 35%; position: absolute; right: 0;">
+        <div class="India font-weight-bold">All Rights Reseserved &nbsp;</div>
+        <div class="copyright">. &copy; 2024 OLX</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  
+  <!-- Bootstrap classes used to style the div as a modal and specify that it should fade in and out when shown or hidden. -->
+  <!-- tabindex="-1": This attribute specifies that the modal should be focusable but not reachable via sequential keyboard navigation. -->
+  <!-- aria-labelledby="exampleModalLabel": This attribute associates the modal with an element that labels its purpose or title. -->
+  <!-- aria-hidden="true": This attribute indicates that the modal is initially hidden from screen readers. -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header w-100">
+
+          <!-- class="mx-auto": This Bootstrap utility class centers the content horizontally within its parent element. -->
+          <div class="modal-title mx-auto" id="exampleModalLabel">
+            <img src="img/loginEntryPointPost.webp"> 
+            <p class="text-center">Help make OLX safer place to buy and sell</p>
+          </div>
+
+          <!-- This <button> element is a close button for the modal. When clicked, it dismisses the modal.
+            class="close": This Bootstrap class styles the button as a close button.
+            data-dismiss="modal": This attribute specifies that clicking the button should dismiss the modal.
+            aria-label="Close": This attribute provides a label for screen readers, indicating the purpose of the button. -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <hr>
+        <div class="modal-body">
+          <div class="container">
+            <button class="btn  btn-lg btn-block text-center social-login ">
+              <i class="fas fa-phone phone-login"></i>Login with Phone
+            </button>
+            <button class="btn  btn-lg btn-block text-center social-login ">
+              <i class="fab fa-google google-login"></i>Login with Google
+            </button>
+            <button class="btn  btn-lg btn-block text-center social-login ">
+              <i class="fab fa-twitter twitter-login"></i>Login with Twitter
+            </button>
+            <button class="btn  btn-lg btn-block text-center social-login ">
+              <i class="fab fa-facebook facebook-login"></i>Login with Facebook
+            </button>
+            <button class="btn  btn-lg btn-block text-center social-login ">
+              <i class="far fa-envelope "></i>Login with Email
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+  <!-- Optional JavaScript -->
+  <script src="js/Script.js"></script>
+  <script src="js/all.js"></script>
+  <!-- Popper.js First, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
